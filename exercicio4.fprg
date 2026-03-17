@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio4"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 03:02:03 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjE0OzIwMjYtMDMtMTc7IjAzOjAwOjAzICI7MjM0NQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjE0OzIwMjYtMDMtMTc7IjAzOjAyOjAzICI7MTsyNDU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Real" array="False" size=""/>
+            <output expression="&quot;diga um numero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero&lt;0">
+                <then>
+                    <output expression="&quot;numero negativo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;numero positivo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

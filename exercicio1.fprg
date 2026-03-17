@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R2-AT1_LOPAL"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 02:31:29 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjE0OzIwMjYtMDMtMTc7IjAxOjQwOjIxICI7MjM0Nw=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjE0OzIwMjYtMDMtMTc7IjAyOjMxOjI5ICI7MjsyNDY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sophia" type="String" array="False" size=""/>
+            <input variable="sophia"/>
+            <output expression="&quot;ola, &quot; &amp; sophia &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
